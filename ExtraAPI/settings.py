@@ -86,14 +86,14 @@ WSGI_APPLICATION = 'ExtraAPI.wsgi.application'
 DATABASES = {
     'default': {
 
-        "ENGINE": "mssql",
-        "NAME": "sac-db",
-        "USER": "Extradigital",
-        "PASSWORD": "Extr@123",
-        "HOST": "extra-api.database.windows.net",
-        "PORT": "",
-        "OPTIONS": {"driver": "ODBC Driver 11 for SQL Server",
-                    },
+        # "ENGINE": "mssql",
+        # "NAME": "sac-db",
+        # "USER": "Extardigital",
+        # "PASSWORD": "Extr@123",
+        # "HOST": "extra-api.database.windows.net",
+        # "PORT": "",
+        # "OPTIONS": {"driver": "ODBC Driver 11 for SQL Server",
+        #             },
 
         # 'ENGINE': 'django.db.backends.mysql',
         # 'NAME': 'soure',
@@ -102,14 +102,14 @@ DATABASES = {
         # 'HOST': 'localhost',
         # 'PORT': '3306',
 
-        # "ENGINE": "mssql",
-        # "NAME": "SAC",
-        # "USER": "Extradigital",
-        # "PASSWORD": "Extr@123",
-        # "HOST": "localhost",
-        # "PORT": "1433",
-        # "OPTIONS": {"driver": "ODBC Driver 11 for SQL Server",
-        #             },
+        "ENGINE": "mssql",
+        "NAME": "SAC",
+        "USER": "Extradigital",
+        "PASSWORD": "Extr@123",
+        "HOST": "localhost",
+        "PORT": "1433",
+        "OPTIONS": {"driver": "ODBC Driver 11 for SQL Server",
+                    },
 
     }
 }
